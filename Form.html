@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Form</title>
+      <link rel="stylesheet" href="style.css" />
+    <script src="validate.js" defer></script>
+    </head>
+    <body>
+ <div class="container">
+<div class = "forms">
+  <form id="rform" novalidate>
+    <table>
+      <tr>
+        <td><label>First Name</label></td>
+        <td>
+          <input placeholder="First Name" type="text" id="fname" name="fname"/>
+          <span class="error-message" id="fname-error"></span>
+        </td>
+      </tr>
+  
+      <tr>
+        <td><label>Last Name</label></td>
+        <td>
+          <input placeholder="Last Name" type="text" id="lname" name="lname"/>
+          <span class="error-message" id="lname-error"></span>
+        </td>
+      </tr>
+  
+      <tr>
+        <td><label>Email</label></td>
+        <td>
+          <input placeholder="Email" type="email" id="email" name="email"/>
+          <span class="error-message" id="email-error"></span>
+        </td>
+      </tr>
+  
+      <tr>
+        <td><label>Password</label></td>
+        <td>
+          <input placeholder="Password" type="password" id="password" name="password"/>
+          <span class="error-message" id="password-error"></span>
+        </td>
+      </tr>
+  
+      <tr>
+        <td><label>Confirm Password</label></td>
+        <td>
+          <input placeholder="Confirm Password" type="password" id="cpassword" name="cpassword"/>
+          <span class="error-message" id="cpassword-error"></span>
+        </td>
+      </tr>
+  
+      <tr>
+        <td><label>Gender:</label></td>
+        <td>
+          <label for="male">Male</label>
+          <input type="checkbox" id="male" name="gender" value="Male"/>
+          <label for="female">Female</label>
+          <input type="checkbox" id="female" name="gender" value="Female"/>
+          <span class="error-message" id="gender-error"></span>
+        </td>
+      </tr>
+    </table>
+  
+    <br/>
+    <input type="submit" class="button" value="Submit"/>
+  </form>  
+<p id="error-message" style="color: red;"></p>
+</div>
+ </div>
+    </body>
+</html>
