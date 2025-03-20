@@ -56,7 +56,7 @@ input[type="checkbox"]{
     background-color: #f0f8ff; 
 }
 input[type="checkbox"]:checked{
-    background-image: url("/form/assets/images/ckeckbox.png");
+    background-image: url("assets/images/ckeckbox.png");
     border: 2px solid aliceblue;  
     background-size: cover;
     background-position: center;
